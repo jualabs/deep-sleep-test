@@ -16,6 +16,7 @@ void setup() {
     Serial.print(F(","));
     Serial.print(mylocation.lng(), 6);
     Serial.println();
+    Serial.println();
   //Increment boot number and print it every reboot
   ++bootCount;
   Serial.println("Boot number: " + String(bootCount));
